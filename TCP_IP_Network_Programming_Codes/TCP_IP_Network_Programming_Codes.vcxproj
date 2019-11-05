@@ -121,6 +121,8 @@
     <ClInclude Include="syscheck.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="echo_client.cpp" />
+    <ClCompile Include="echo_server.cpp" />
     <ClCompile Include="hello_client.cpp" />
     <ClCompile Include="hello_server.cpp" />
   </ItemGroup>

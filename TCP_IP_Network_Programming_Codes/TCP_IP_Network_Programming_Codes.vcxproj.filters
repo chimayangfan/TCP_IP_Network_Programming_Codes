@@ -16,6 +16,9 @@
     <Filter Include="源文件\chapter1">
       <UniqueIdentifier>{88295cc1-1778-4895-b4a8-247b276df386}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter4">
+      <UniqueIdentifier>{8b83a817-7c79-4213-a709-66c508fe7b01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="syscheck.h">
@@ -28,6 +31,12 @@
     </ClCompile>
     <ClCompile Include="hello_client.cpp">
       <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_client.cpp">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_server.cpp">
+      <Filter>源文件\chapter4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
