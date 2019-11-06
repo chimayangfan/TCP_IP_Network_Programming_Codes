@@ -44,6 +44,12 @@
     <ClCompile Include="echo_client2.cpp">
       <Filter>源文件\chapter5</Filter>
     </ClCompile>
+    <ClCompile Include="op_client.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="op_server.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Readme.txt">
