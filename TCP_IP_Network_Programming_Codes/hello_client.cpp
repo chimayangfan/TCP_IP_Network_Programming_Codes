@@ -7,7 +7,7 @@ void error_handling(const char* message) {
 }
 
 int main(int argc, char* argv[]) {
-#ifdef linux
+#ifdef __linux
 	int sock;
 	struct sockaddr_in serv_addr;
 	char message[30];

@@ -1,5 +1,5 @@
 #pragma once
-#ifdef linux
+#ifdef __linux
 	#include<unistd.h>//unix 标准的输入输出
 	#include<stdlib.h>//standard library标准库头文件
 	#include<stdio.h>//标准输入输出库的头文件

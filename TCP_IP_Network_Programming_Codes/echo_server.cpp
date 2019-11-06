@@ -15,7 +15,7 @@ void error_handling(const char* message) {
 }
 
 int main(int argc, char* argv[]) {
-#ifdef linux
+#ifdef __linux
 	int serv_sock;
 	int clnt_sock;
 

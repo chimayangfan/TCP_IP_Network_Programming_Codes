@@ -50,6 +50,12 @@
     <ClCompile Include="op_server.cpp">
       <Filter>源文件\chapter5</Filter>
     </ClCompile>
+    <ClCompile Include="file_client.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="file_server.cpp">
+      <Filter>源文件\chapter5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Readme.txt">

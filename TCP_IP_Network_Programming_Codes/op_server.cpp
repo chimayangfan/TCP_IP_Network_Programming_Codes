@@ -35,7 +35,7 @@ void error_handling(const char* message) {
 }
 
 int main(int argc, char* argv[]) {
-#ifdef linux
+#ifdef __linux
 	int serv_sock, clnt_sock;
 	char opinfo[BUF_SIZE];
 	int result, opnd_cnt, i;
