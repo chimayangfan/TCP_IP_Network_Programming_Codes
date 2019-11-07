@@ -130,6 +130,8 @@
     <ClCompile Include="hello_server.cpp" />
     <ClCompile Include="op_client.cpp" />
     <ClCompile Include="op_server.cpp" />
+    <ClCompile Include="uecho_client.cpp" />
+    <ClCompile Include="uecho_server.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Readme.txt" />
